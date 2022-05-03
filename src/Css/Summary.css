@@ -1,18 +1,34 @@
-.tile {
+.summary {
     background-color: hsla(225, 15%, 69%, 0.33);
-    min-width: 100px;
-    max-width: 600px;
-    min-height: 250px;
-    border-radius: 5%;
-    white-space: nowrap;
+    grid-column: 3/3;
+    grid-row: 4/4;
+    border-radius: 55px;
+    margin: 2%;
+    padding: 3%;
+    width: 777px;
+    height: 300px;
     overflow: hidden;
     text-overflow: ellipsis;
-    animation: rotate360 11s linear infinite;
-    animation-play-state: paused;
+    animation: rotate360 22s linear infinite;
+    animation-play-state: running;
 }
 
-.tile:hover {
-    animation-play-state: running;
+.summaryPhoto {
+    border-radius: 3px;
+    width: 33%;
+    height: 33%;
+    margin-left: 10%;
+}
+
+.summaryDetails {
+    display: flex;
+    min-width: 88%;
+    min-height: 33%;
+    flex-direction: row;
+}
+
+.summary:hover {
+    animation-play-state: paused;
 }
 
 @keyframes rotate360 {

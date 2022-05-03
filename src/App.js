@@ -8,6 +8,9 @@ import './Css/ExpandedProject.css'
 import './Css/Footer.css'
 import './Css/Header.css'
 import './Css/NavBar.css'
+import './Css/AboutMe.css'
+import './Css/Philosophy.css'
+import './Css/Summary.css'
 import Home from './Pages/Home.js'
 
 function App() {

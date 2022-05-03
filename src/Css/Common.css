@@ -4,9 +4,9 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     font-size: 16px;
-    width: 0;
-    height: 0;
     background-color: #1C2321;
     color: #EEF1EF;
     font-family: 'Gill Sans',
