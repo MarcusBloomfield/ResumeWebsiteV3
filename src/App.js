@@ -7,6 +7,7 @@ import './Css/ProjectTile.css'
 import './Css/ExpandedProject.css'
 import './Css/Footer.css'
 import './Css/Header.css'
+import './Css/NavBar.css'
 import Home from './Pages/Home.js'
 
 function App() {

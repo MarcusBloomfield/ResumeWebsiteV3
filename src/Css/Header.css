@@ -1,13 +1,9 @@
 .header {
-    text-align: center;
     grid-column: 2 / 2;
     grid-row: 1/1;
 }
 
 .headerAbout {
-    margin-left: 22%;
-    margin-right: 22%;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 600px;
+    height: 33%;
 }
