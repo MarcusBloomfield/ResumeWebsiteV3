@@ -1,0 +1,15 @@
+.projectGrid {
+    height: inherit;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+    grid-row-gap: 7%;
+}
+
+.projectGridContainer {
+    height: 94%;
+    grid-column: 2 / 2;
+    grid-row: 2/2;
+}

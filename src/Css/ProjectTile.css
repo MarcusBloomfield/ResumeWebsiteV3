@@ -1,0 +1,12 @@
+.tile {
+    backdrop-filter: saturate(130%) blur(55px);
+    min-width: 33%;
+    min-height: 33%;
+    border-radius: 5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.tileAbout {}
