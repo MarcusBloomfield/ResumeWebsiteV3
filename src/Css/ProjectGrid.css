@@ -1,13 +1,13 @@
 .projectGrid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1%;
     grid-row-gap: 7%;
 }
 
 .projectGridContainer {
-    grid-column: 2 / 4;
+    grid-column: 2 / 2;
     grid-row: 6/6;
     text-align: center;
 }

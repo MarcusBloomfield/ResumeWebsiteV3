@@ -1,11 +1,12 @@
-export default function ProjectTile() {
+import React from 'react'
+import { useState } from "react";
+
+export default function ProjectTile({ ...props }) {
     return (
-        <div className="tile">
-            <h1>name</h1>
+        <div className="tile" onClick={() => props.setTrigger(true)} >
+            <h2> {props.title}</h2>
             <p className="tileAbout " >
-                ifhwoqe; ifhwoeihfwoeihfow
-                <br /> dfffeqweqweqweqwe
-                ifhwoqe; ifhwoeihfwoeihfow; eihf
+                {props.info}
             </p>
         </div>
     );

@@ -1,13 +1,13 @@
 .tile {
     background-color: hsla(225, 15%, 69%, 0.33);
-    min-width: 100px;
-    max-width: 600px;
-    min-height: 250px;
+    color: #EEF1EF;
+    border: none;
+    width: 300px;
+    height: 120px;
     border-radius: 5%;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    animation: rotate360 11s linear infinite;
+    animation: bob 1s linear infinite;
     animation-play-state: paused;
 }
 
@@ -15,7 +15,7 @@
     animation-play-state: running;
 }
 
-@keyframes rotate360 {
+@keyframes bob {
 
     from,
     to {
@@ -28,15 +28,15 @@
     50%,
     70%,
     90% {
-        -webkit-transform: translate3d(0, -10px, 0);
-        transform: translate3d(0, -10px, 0);
+        -webkit-transform: translate3d(0, -1px, 0);
+        transform: translate3d(0, -1px, 0);
     }
 
     20%,
     40%,
     60%,
     80% {
-        -webkit-transform: translate3d(0, 10px, 0);
-        transform: translate3d(0, 10px, 0);
+        -webkit-transform: translate3d(0, 1px, 0);
+        transform: translate3d(0, 1px, 0);
     }
 }

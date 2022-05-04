@@ -1,0 +1,38 @@
+.popUp {
+    grid-column: 3/3;
+    grid-row: 6/6;
+
+    background-color: hsla(225, 15%, 69%, 0.33);
+
+    display: grid;
+    grid-template-columns: 1fr 33fr 1fr;
+    grid-template-rows: 1fr 4fr 5fr .5fr;
+    border-radius: 55px;
+
+
+}
+
+.popUpTitle {
+    grid-row: 1/1;
+    grid-column: 2 / 2;
+}
+
+.popUpVisuals {
+    grid-row: 2/2;
+    grid-column: 2 / 2;
+}
+
+.popUpInfo {
+    grid-row: 3/3;
+    grid-column: 2 / 2;
+}
+
+.popUpLinks {
+    grid-row: 4/4;
+    grid-column: 2 / 2;
+}
+
+.popUpClose {
+    grid-column: 3 / 3;
+    grid-row: 1/1;
+}
