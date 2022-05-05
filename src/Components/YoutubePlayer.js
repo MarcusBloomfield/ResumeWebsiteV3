@@ -1,14 +1,12 @@
-import YouTube from "react-youtube";
+import YouTube from "react-youtube-player";
 
 export default function YoutubePlayer({ ...props }) {
     const options = {
-        height: '240',
-        width: '426',
         playerVars: {
             autoplay: 1,
-            mute: props.streetSound ? 0 : 1,
+            mute: 0,
             modestbranding: 1,
-            autohide: 1,
+            autohide: 0,
             playbackSpeed: props.playbackSpeed
         },
     };

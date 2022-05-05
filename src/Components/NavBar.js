@@ -3,7 +3,7 @@ export default function NavBar() {
         <div className="navBar">
             <button className="navButton" > Projects </button>
             <button className="navButton" > Contact </button>
-            <button className="navButton" > Other </button>
+            <button className="navButton" > Github </button>
         </div>
     );
 }

@@ -1,6 +1,6 @@
 .home {
     display: grid;
-    grid-template-rows: 1fr 2.5fr 2fr 2fr 1fr 2.5fr 1fr;
+    grid-template-rows: 1fr 2.5fr 2fr 2fr 1fr 4fr 1fr;
     grid-template-columns: 5% 1fr 1fr 5%;
     align-items: center;
     background: rgb(42, 43, 46);
