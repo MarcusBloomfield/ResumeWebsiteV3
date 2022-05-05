@@ -1,5 +1,5 @@
 .summary {
-    background-color: hsla(225, 15%, 69%, 0.33);
+    background-color: hsla(225, 15%, 69%, 0);
     grid-column: 3/3;
     grid-row: 4/4;
     border-radius: 55px;
