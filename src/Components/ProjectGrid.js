@@ -1,6 +1,7 @@
 import ProjectTile from "./ProjectTile";
 
 export default function ProjectTiles({ ...props }) {
+
     return (
         <div className="projectGridContainer">
             <div className="projectGrid">

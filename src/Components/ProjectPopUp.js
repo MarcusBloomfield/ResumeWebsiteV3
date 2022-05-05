@@ -5,7 +5,7 @@ export default function ProjectPopUp({ ...props }) {
 
     if (props.trigger) {
         return (
-            <div className="popUp">
+            <div data-aos="fade-left" className="popUp">
                 <h1 className="popUpTitle"> {props.title} </h1>
                 <div className="popUpVisualsContainer">
                     <Visuals youtube={props.videoId} videoId={props.videoId} />
@@ -27,5 +27,8 @@ function Visuals({ ...props }) {
 function GitHubLink({ ...props }) {
     if (props.github != null) {
         return < a className="link" href={"https://github.com/MarcusBloomfield/" + props.github} rel="noreferrer" > Github </a >
+    }
+    else {
+        return < a className="link" href={"https://www.youtube.com/channel/UC3WBEpmhnvW3ILqzr9eDR5Q"} rel="noreferrer" > YouTube </a >
     }
 }

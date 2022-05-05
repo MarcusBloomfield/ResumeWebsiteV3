@@ -1,7 +1,6 @@
 import React from 'react'
-import { useState } from "react";
-
 export default function ProjectTile({ ...props }) {
+
     function active() {
         props.array.forEach(element => {
             element(false);
@@ -9,11 +8,11 @@ export default function ProjectTile({ ...props }) {
         props.setTrigger(true);
     }
     return (
-        <div className="tile" onClick={() => active()} >
-            <h2> {props.title}</h2>
+        <div data-aos="fade-right" className=" tile " onClick={() => active()} >
+            < h2 > {props.title}</h2 >
             <p className="tileAbout " >
                 {props.info}
             </p>
-        </div>
+        </div >
     );
 }

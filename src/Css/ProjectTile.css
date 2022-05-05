@@ -7,11 +7,10 @@
     border-radius: 5%;
     overflow: hidden;
     text-overflow: ellipsis;
-    animation: bob 1s linear infinite;
-    animation-play-state: paused;
 }
 
 .tile:hover {
+    animation: bob 1s linear infinite paused;
     animation-play-state: running;
 }
 

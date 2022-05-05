@@ -1,6 +1,6 @@
 export default function Philosophy({ ...props }) {
     return (
-        <div className="philosophy animate__animated animate__fadeInRight">
+        <div className="philosophy" data-aos="fade-in">
             <h2> Philosophy </h2 >
             <div className="philosophyDetails">
                 <div>

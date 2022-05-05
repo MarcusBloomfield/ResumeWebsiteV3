@@ -1,19 +1,19 @@
 .popUp {
     grid-column: 3/3;
     grid-row: 6/6;
-    background-color: hsla(225, 15%, 69%, 0.184);
+    background-color: hsla(225, 15%, 69%, 0.149);
 
     display: grid;
-    grid-template-columns: 1fr 33fr 1fr;
-    grid-template-rows: .1fr 4fr .1fr 2fr .3fr;
-    border-radius: 55px;
+    grid-template-columns: .5fr 19fr .5fr;
+    grid-template-rows: .7fr 5.3fr .1fr 2fr .3fr;
+    border-radius: 33px;
 
     width: 777px;
     height: 671px;
 
     padding: 15px;
 
-    animation: fadeIn 1.3s linear;
+    animation: fadeIn .5s linear;
     animation-play-state: running;
 
 }
@@ -26,6 +26,7 @@
 .popUpTitle {
     grid-row: 1/1;
     grid-column: 2 / 2;
+    margin-left: 7px;
 }
 
 .popUpVisualsContainer {
@@ -43,6 +44,8 @@
     grid-row: 5/5;
     grid-column: 2 / 2;
     width: min-content;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 .popUpClose {

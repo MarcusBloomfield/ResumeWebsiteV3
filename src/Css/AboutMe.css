@@ -9,8 +9,10 @@
     height: 300px;
     overflow: hidden;
     text-overflow: ellipsis;
+
     animation: shakeY 22s linear infinite;
     animation-play-state: running;
+    overflow: hidden;
 }
 
 .aboutMePhoto {

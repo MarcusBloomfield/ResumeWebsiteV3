@@ -1,6 +1,6 @@
 export default function AboutMe() {
     return (
-        <div className="summary animate__animated animate__fadeInRight">
+        <div className="summary " data-aos="fade-in" >
             <h2>Summary</h2 >
             <div className="summaryDetails">
                 <div>

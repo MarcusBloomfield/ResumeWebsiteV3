@@ -1,5 +1,4 @@
 import './Css/Animate.css'
-import './Css/App.css'
 import './Css/Common.css'
 import './Css/Home.css'
 import './Css/ProjectGrid.css'
@@ -11,11 +10,13 @@ import './Css/AboutMe.css'
 import './Css/Philosophy.css'
 import './Css/Summary.css'
 import './Css/ProjectPopUp.css'
+import './Css/BackToTop.css'
+import "aos/dist/aos.css"
 import Home from './Pages/Home.js'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Home />
     </div>
   );

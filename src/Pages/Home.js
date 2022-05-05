@@ -1,12 +1,14 @@
-import Header from '../Components/Header.js'
-import Footer from '../Components/Footer.js'
+import Header from '../Components/Header.js';
+import Footer from '../Components/Footer.js';
 import NavBar from '../Components/NavBar.js';
 import AboutMe from '../Components/AboutMe.js';
 import ProjectGrid from '../Components/ProjectGrid.js';
 import Philosophy from '../Components/Philosophy.js';
-import Summary from '../Components/Summary.js'
+import Summary from '../Components/Summary.js';
 import ProjectPopUp from '../Components/ProjectPopUp.js';
-import { useState } from "react";
+import BackToTop from '../Components/BackToTop.js';
+import Aos from "aos";
+import { useEffect, useState } from "react";
 
 
 export default function Home() {
@@ -15,11 +17,20 @@ export default function Home() {
     const [Island, setIsland] = useState(false);
     const [TPG, setTPG] = useState(false);
 
+    useEffect(() => {
+        Aos.init({
+            offset: 200,
+            duration: 600,
+            easing: 'ease-in-sine',
+        });
+    }, [])
+
     return (
         <div className="home animate__animated animate__fadeIn">
             <Header />
             <NavBar />
-            <ProjectGrid setZomBoy={setZomBoy} setHardship={setHardship} setIsland={setIsland} setTPG={setTPG} array={[setZomBoy, setHardship, setIsland, setTPG]} />
+            <BackToTop />
+            <ProjectGrid name="projectGrid" setZomBoy={setZomBoy} setHardship={setHardship} setIsland={setIsland} setTPG={setTPG} array={[setZomBoy, setHardship, setIsland, setTPG]} />
             <ProjectPopUp trigger={ZomBoy} title="ZomBoy" videoId="hLCd2h2e3no" github="ZombBoi"
                 info="
                     ZombBoi is a 2d Top down endless zombie killer.

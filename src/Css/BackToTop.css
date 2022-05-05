@@ -1,0 +1,28 @@
+.backToTopButton {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+    font-size: 18px;
+    color: #EEF1EF;
+    background-color: #eef1ef00;
+    border: none;
+    box-shadow: 0px;
+    transition-duration: 0.4s;
+}
+
+.backToTopContainer {
+    position: fixed;
+    top: 93%;
+    left: 96%;
+}
+
+.backToTopButton:hover {
+    color: rgb(0, 0, 0);
+    background-color: #EEF1EF;
+}
