@@ -1,0 +1,31 @@
+.card {
+    background-color: hsla(225, 15%, 69%, 0);
+    border-radius: 55px;
+    padding: 3%;
+    width: 777px;
+    height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    animation: shakeY 22s linear infinite;
+    animation-play-state: running;
+    overflow: hidden;
+}
+
+.card:hover {
+    animation-play-state: paused;
+}
+
+.cardDetails {
+    display: flex;
+    min-width: 88%;
+    min-height: 33%;
+    flex-direction: row;
+}
+
+.cardPhoto {
+    border-radius: 3px;
+    width: 33%;
+    height: 33%;
+    margin-left: 10%;
+}

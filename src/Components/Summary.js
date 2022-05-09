@@ -1,8 +1,8 @@
 export default function AboutMe() {
     return (
-        <div className="summary " data-aos="fade-in" >
+        <div className="card summary " data-aos="fade-in" >
             <h2>Summary</h2 >
-            <div className="summaryDetails">
+            <div className="cardDetails">
                 <div>
                     I am also familiar with the development of A.I, virtual reality, and many more gameplay systems.
                     I am currently working on a real-time strategy simulation game that heavily relies on an in-game artificial intelligence system additionally a virtual reality god game with a few teammates.

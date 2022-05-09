@@ -1,7 +1,7 @@
 .popUp {
     grid-column: 3/3;
     grid-row: 6/6;
-    background-color: hsla(225, 15%, 69%, 0.03);
+    background-color: hsla(225, 15%, 69%, 0.022);
 
     display: grid;
     grid-template-columns: .5fr 19fr .5fr;

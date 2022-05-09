@@ -1,34 +1,4 @@
 .aboutMe {
-    background-color: hsla(225, 15%, 69%, 0);
     grid-column: 3/3;
     grid-row: 2/2;
-    border-radius: 55px;
-    margin: 2%;
-    padding: 3%;
-    width: 777px;
-    height: 300px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-    animation: shakeY 22s linear infinite;
-    animation-play-state: running;
-    overflow: hidden;
-}
-
-.aboutMePhoto {
-    border-radius: 3px;
-    width: 33%;
-    height: 33%;
-    margin-left: 10%;
-}
-
-.aboutMeDetails {
-    display: flex;
-    min-width: 88%;
-    min-height: 33%;
-    flex-direction: row;
-}
-
-.aboutMe:hover {
-    animation-play-state: paused;
 }
