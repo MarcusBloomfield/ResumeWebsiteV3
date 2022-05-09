@@ -1,6 +1,6 @@
 .popUp {
     grid-column: 3/3;
-    grid-row: 6/6;
+    grid-row: 10/10;
     background-color: hsla(225, 15%, 69%, 0.022);
 
     display: grid;

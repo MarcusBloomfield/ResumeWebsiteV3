@@ -3,7 +3,7 @@ export default function Header() {
         <div className="header">
             <h1> Marcus Bloomfield </h1>
             <div className="headerAbout">
-                The creative and problem-solving mindset that is required by software development is why I love it.
+                Programming is an art that involves problem-solving, creativity, logic, and dedication.
             </div>
         </div>
     );

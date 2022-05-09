@@ -9,6 +9,9 @@ export default function Card({ ...props }) {
                     <div> {props.details} </div>
                     <Photo photoAddress={props.photoAddress} />
                 </div>
+                <div> {props.details2} </div>
+                <div> {props.details3} </div>
+                <div> {props.details4} </div>
             </div>
         </div>
     );

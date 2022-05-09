@@ -1,9 +1,10 @@
 .home {
-    height: 5000px;
+    height: 10000px;
+    width: 100%;
     display: grid;
-    grid-template-rows: 1.3fr 5fr 5fr 5fr 1fr 6fr 1fr;
+    grid-template-rows: .8fr 7fr 7fr 7fr 7fr 7fr 7fr 7fr 1fr 6fr 3fr;
     grid-template-columns: .05fr 1fr 1fr .05fr;
     align-items: center;
     background: rgb(42, 43, 46);
-    background: linear-gradient(45deg, rgba(42, 43, 46, 1) 1%, #9dabcf 88%);
+    background: linear-gradient(45deg, rgba(42, 43, 46, 1) 5%, #9dabcf 88%);
 }
