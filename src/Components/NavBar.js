@@ -14,7 +14,7 @@ function options() {
     return {
         duration: 1500,
         delay: 100,
+        offset: -200,
         smooth: true,
-        offset: 0
     }
 }
