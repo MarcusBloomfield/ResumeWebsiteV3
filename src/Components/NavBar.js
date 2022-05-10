@@ -5,8 +5,7 @@ export default function NavBar() {
     return (
         <div className="navBar">
             <button className="navButton" onClick={() => scroll.scrollTo(8444)}> Projects </button>
-            <button className="navButton" onClick={() => scroll.scrollToBottom()} > Contact </button>
-            <button className="navButton" > Github </button>
+            <button className="navButton" onClick={() => scroll.scrollTo('projects')} > Contact </button>
         </div>
     );
 }

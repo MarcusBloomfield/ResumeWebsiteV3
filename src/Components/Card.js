@@ -19,6 +19,6 @@ export default function Card({ ...props }) {
 
 function Photo({ ...props }) {
     if (props.photoAddress != null) {
-        return <img src={props.photoAddress} className="cardPhoto" />
+        return <img src={props.photoAddress} className="cardPhoto" alt="it's me :)" />
     }
 }

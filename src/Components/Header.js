@@ -3,7 +3,7 @@ export default function Header() {
         <div className="header">
             <h1> Marcus Bloomfield </h1>
             <div className="headerAbout">
-                Programming is an art that involves problem-solving, creativity, logic, and dedication.
+                Programming is an art that involves problem-solving, creativity, and dedication.
             </div>
         </div>
     );
