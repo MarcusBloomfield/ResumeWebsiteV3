@@ -1,11 +1,20 @@
-import { animateScroll as scroll } from 'react-scroll'
+import { scroller as scrollToElement } from 'react-scroll'
+import { animateScroll } from 'react-scroll/modules';
 
 
 export default function NavBar() {
     return (
         <div className="navBar">
-            <button className="navButton" onClick={() => scroll.scrollTo(8444)}> Projects </button>
-            <button className="navButton" onClick={() => scroll.scrollToBottom()} > Contact </button>
+            <button className="navButton" onClick={() => scrollToElement.scrollTo('projects', options())}> Projects </button>
+            <button className="navButton" onClick={() => animateScroll.scrollToBottom(options())} > Contact </button>
         </div>
     );
+}
+function options() {
+    return {
+        duration: 1500,
+        delay: 100,
+        smooth: true,
+        offset: 0
+    }
 }
