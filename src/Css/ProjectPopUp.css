@@ -1,6 +1,20 @@
+@media only screen and (min-width: 1920px) {
+    .popUp {
+        grid-column: 3/3;
+        grid-row: 10/10;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .popUp {
+        position: absolute;
+        top: 11320px;
+    }
+}
+
+
+
 .popUp {
-    grid-column: 3/3;
-    grid-row: 10/10;
     background-color: hsla(225, 15%, 69%, 0.022);
 
     display: grid;
@@ -12,6 +26,7 @@
     height: 671px;
 
     padding: 15px;
+
 
     animation: fadeIn .5s linear;
     animation-play-state: running;
