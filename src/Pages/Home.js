@@ -13,7 +13,7 @@ export default function Home() {
             <NavBar />
             <BackToTop />
             <AllCards />
-            <AllProjectStuff name="projects" />
+            <AllProjectStuff />
             <Footer />
         </div>
     );
