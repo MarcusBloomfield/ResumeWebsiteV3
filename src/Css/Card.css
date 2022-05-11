@@ -14,16 +14,21 @@
     animation-play-state: paused;
 }
 
+.cardLayout {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    column-gap: 50px;
+}
+
 .cardDetails {
     display: flex;
-    min-width: 88%;
-    min-height: 33%;
-    flex-direction: row;
+    flex-direction: column;
+    row-gap: 50px;
 }
 
 .cardPhoto {
     border-radius: 4px;
-    width: 33%;
-    height: 33%;
-    margin-left: 10%;
+    height: 23%;
+    width: 23%;
 }
