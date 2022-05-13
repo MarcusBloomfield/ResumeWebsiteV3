@@ -35,11 +35,11 @@ export default function AllProjectStuff() {
                     "
             />
             <ProjectPopUp trigger={Island} title="Island" videoId="2h_hzFjcd3k"
-                info="
-                    Random map generation using perlin noise to create terrain feautrest that uses a fall off map to create the island structure.
-                    The generated model also paints it's self based on the hieght of the terrain. Lowest being sand and highest being mountains.
-                    In another version I added dynamicly spawning trees and rocks to the 3d island.
-                    "
+                info="Random map generation using Perlin noise to create terrain features that uses a fall off map to create the island structure.
+            The generated model also paints itself based on the height of the terrain. Lowest being sand and the highest being mountains.
+            In another version, I added dynamically spawning trees and rocks to the 3d island.
+            "
+
             />
             <ProjectPopUp trigger={TPG} title="The Plane Game" videoId="g_BBcKTlg6E" github="ThePlaneGame"
                 info="

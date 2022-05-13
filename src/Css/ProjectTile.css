@@ -7,6 +7,13 @@
     border-radius: 5%;
 }
 
+@media only screen and (min-width: 3000px) {
+    .tile {
+        width: 66%;
+        height: 100%;
+    }
+}
+
 .tile:hover {
     animation: bob 1s linear infinite paused;
     animation-play-state: running;

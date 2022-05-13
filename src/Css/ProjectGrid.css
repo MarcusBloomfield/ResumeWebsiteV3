@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1900px) {
     .projectGrid {
         display: grid;
         grid-template-rows: 1fr 1fr;
@@ -25,6 +25,26 @@
     }
 
     .projectGridContainer {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .projectGrid {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1%;
+        grid-row-gap: 7%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .projectGridContainer {
+        width: 75%;
+        height: 75%;
+        grid-column: 2 / 2;
+        grid-row: 10/10;
         text-align: center;
     }
 }
