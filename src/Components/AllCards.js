@@ -1,9 +1,8 @@
-import profilePic from '../ProfilePic.jpg'
 import Card from '../Components/Card.js';
 
 export default function AllCards() {
     return (<>
-        <Card className="aboutMe" photoAddress={profilePic} title=" About Me" details="
+        <Card className="aboutMe" title=" About Me" details="
 I am Marcus, programming is my passion, I am self-taught and the creative and problem-solving mindset that is required by coding is why I love programming. Every problem has a solution and I hope I am always as excited as I am today to solve them. " />
         <Card className="philosophy" title="Philosophy" details=" I strongly believe in coding the right way and I rigorously follow Robert C. Martin's clean coding philosophy." />
         <Card className="howILearned" title="How I learned to program" details="I found unity and decided to make my dream game right away. Of course, with no programming experience, this was an extremely hard challenge. However being who I am I never gave up, failure after failure after failure, moving goalposts, on a roller coaster of challenges I kept going. Now my game is still not finished, I am still working on it, but now I am deeply familiar with c# and unity and have developed a deep love for programming." />

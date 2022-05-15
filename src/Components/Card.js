@@ -16,7 +16,6 @@ export default function Card({ ...props }) {
                             <div> {props.details2} </div>
                         </div>
                     </div>
-                    <Photo photoAddress={props.photoAddress} />
                 </div>
             </div>
         </div >
