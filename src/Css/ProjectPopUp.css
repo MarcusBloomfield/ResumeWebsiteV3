@@ -1,5 +1,4 @@
 .popUp {
-    background-color: hsla(225, 15%, 69%, 0);
 
     display: grid;
     grid-template-columns: .5fr 19fr .5fr;
@@ -52,14 +51,14 @@
     grid-row: 1/1;
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1000px) {
     .popUp {
         grid-column: 3/3;
         grid-row: 10/10;
     }
 }
 
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 1000px) {
     .popUp {
         position: absolute;
         top: 11320px;

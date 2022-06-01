@@ -21,9 +21,3 @@ export default function Card({ ...props }) {
         </div >
     );
 }
-
-function Photo({ ...props }) {
-    if (props.photoAddress != null) {
-        return <img src={props.photoAddress} className="cardPhoto" alt="it's me :)" />
-    }
-}
