@@ -1,25 +1,25 @@
 .backToTopButton {
-    width: 44px;
-    height: 44px;
-    border-radius: 50px;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 1em;
 
     font-family: 'Gill Sans',
         'Gill Sans MT',
         Calibri,
         'Trebuchet MS',
         sans-serif;
-    font-size: 18px;
+    font-size: 1em;
     color: #EEF1EF;
     background-color: #eef1ef00;
     border: none;
-    box-shadow: 0px;
+    box-shadow: 0;
     transition-duration: 0.4s;
 }
 
 .backToTopContainer {
     position: fixed;
-    top: 93%;
-    left: 96%;
+    right: 3em;
+    bottom: 1em;
 }
 
 .backToTopButton:hover {

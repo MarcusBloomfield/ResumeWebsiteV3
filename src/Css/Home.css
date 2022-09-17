@@ -1,34 +1,7 @@
-@media only screen and (min-width: 1000px) {
-    .home {
-        height: 10000px;
-        width: 100%;
-        display: grid;
-        grid-template-rows: .8fr 7fr 7fr 7fr 7fr 7fr 7fr 7fr 1fr 6fr 3fr;
-        grid-template-columns: .05fr 1fr 1fr .05fr;
-        align-items: center;
-        background: rgb(42, 43, 46);
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .home {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 50px;
-        row-gap: 1000px;
-        background: rgb(42, 43, 46);
-    }
-}
-
-@media only screen and (min-width: 3000px) {
-    .home {
-        height: 800vh;
-        width: 100%;
-        display: grid;
-        grid-template-rows: .8fr 7fr 7fr 7fr 7fr 7fr 7fr 7fr 1fr 6fr 3fr;
-        grid-template-columns: .05fr 1fr 1fr .05fr;
-        align-items: center;
-        background: rgb(42, 43, 46);
-    }
+.home {
+    height: 500em;
+    display: grid;
+    grid-template-rows: .8fr 7fr 7fr 7fr 7fr 7fr 7fr 7fr 1fr 6fr 3fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }

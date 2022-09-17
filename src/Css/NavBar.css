@@ -1,24 +1,16 @@
-@media only screen and (min-width: 1900px) {
-    .navBar {
-        display: flexbox;
-        flex-direction: row;
-        padding: 10px;
-        text-align: right;
-        grid-column: 3/3;
-        grid-row: 1/1;
-    }
+.navBar {
+    display: flexbox;
+    flex-direction: row;
+    padding: 1em;
+    text-align: right;
+    grid-column: 2/2;
+    grid-row: 1/1;
 }
 
-@media only screen and (max-width: 1900px) {
-    .navBar {
-        display: flexbox;
-        flex-direction: row;
-        padding: 10px;
-        text-align: right;
-        position: absolute;
-        top: 1.5%;
-        left: 66%;
-    }
+.navButton {
+    font-size: 1em;
+    width: 5em;
+    height: 1.85em;
 }
 
 .navButton {
@@ -30,39 +22,14 @@
     color: #EEF1EF;
     background-color: #eef1ef00;
     border: none;
-    border-radius: 100px;
-    margin: 5px;
+    border-radius: 1em;
+    margin: 1em;
     box-shadow: 0px;
     transition-duration: 0.4s;
-    margin-right: 10px;
+    margin-right: 1em;
 }
 
 .navButton:hover {
     color: rgb(0, 0, 0);
     background-color: #EEF1EF;
-}
-
-@media only screen and (min-width: 1900px) {
-    .navButton {
-        font-size: 18px;
-        width: 100px;
-        height: 25px;
-    }
-}
-
-@media only screen and (max-width: 1900px) {
-    .navButton {
-        font-size: 33px;
-        width: 150px;
-        height: 50px;
-        margin-bottom: 50px;
-    }
-}
-
-@media only screen and (min-width: 3000px) {
-    .navButton {
-        font-size: 24px;
-        width: 150px;
-        height: 50px;
-    }
 }

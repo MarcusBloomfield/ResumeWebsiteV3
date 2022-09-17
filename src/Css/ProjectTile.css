@@ -1,47 +1,51 @@
 .tile {
     color: #EEF1EF;
     border: none;
-    width: 300px;
-    height: 120px;
+    width: 15em;
+    height: 10em;
     border-radius: 5%;
+    padding-left: 5em;
 }
 
-@media only screen and (min-width: 3000px) {
+@media (min-width: 70em) {
     .tile {
-        width: 66%;
-        height: 100%;
+        color: #EEF1EF;
+        border: none;
+        width: 15em;
+        height: 10em;
+        border-radius: 5%;
+        grid-column: 1;
+        padding-left: 5em;
+    }
+}
+
+@keyframes bob {
+
+    from,
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translate3d(0, -1px, 0);
+        transform: translate3d(0, -1px, 0);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translate3d(0, 1px, 0);
+        transform: translate3d(0, 1px, 0);
     }
 }
 
 .tile:hover {
     animation: bob 1s linear infinite paused;
     animation-play-state: running;
-}
-
-@media only screen and (min-width: 1000px) {
-    @keyframes bob {
-
-        from,
-        to {
-            -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-        }
-
-        10%,
-        30%,
-        50%,
-        70%,
-        90% {
-            -webkit-transform: translate3d(0, -1px, 0);
-            transform: translate3d(0, -1px, 0);
-        }
-
-        20%,
-        40%,
-        60%,
-        80% {
-            -webkit-transform: translate3d(0, 1px, 0);
-            transform: translate3d(0, 1px, 0);
-        }
-    }
 }
