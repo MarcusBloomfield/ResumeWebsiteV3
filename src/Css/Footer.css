@@ -1,6 +1,7 @@
 .footer {
-    grid-column: 1 / 2;
+    grid-column: 1/1;
     grid-row: end/end;
-    margin-bottom: 2em;
-    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    width: 20em;
 }

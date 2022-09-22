@@ -5,3 +5,13 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
+
+@media(min-width:200em) {
+    .home {
+        height: 1000em;
+        display: grid;
+        grid-template-rows: .8fr 7fr 7fr 7fr 7fr 7fr 7fr 7fr 1fr 6fr 3fr;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}

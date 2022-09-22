@@ -2,8 +2,8 @@ import '../Css/Card.css'
 
 export default function Card({ ...props }) {
     return (
-        <div className={props.className}>
-            <div className="card" data-aos="fade-in">
+        <div data-aos="fade-in" className={props.className}>
+            <div>
                 <div className="cardLayout">
                     <div className='cardDetails'>
                         <div>

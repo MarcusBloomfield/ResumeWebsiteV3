@@ -5,6 +5,7 @@
     height: 10em;
     border-radius: 5%;
     padding-left: 5em;
+    max-width: 10em;
 }
 
 @media (min-width: 70em) {
@@ -12,6 +13,7 @@
         color: #EEF1EF;
         border: none;
         width: 15em;
+        max-width: 100em;
         height: 10em;
         border-radius: 5%;
         grid-column: 1;

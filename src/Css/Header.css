@@ -1,10 +1,18 @@
 .header {
     grid-column: 1 / 1;
     grid-row: 1/1;
-    padding: 5em;
+    padding: 1em;
 }
 
 .headerAbout {
-    width: 40em;
     height: 1em;
+}
+
+@media(min-width: 70em) {
+    .header {
+        grid-column: 1 / 1;
+        grid-row: 1/1;
+        padding: 3em;
+        min-width: 20em;
+    }
 }

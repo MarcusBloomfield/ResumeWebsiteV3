@@ -7,7 +7,6 @@
 }
 
 .projectGridContainer {
-    width: 10em;
     grid-column: 1/1;
     grid-row: 10/10;
     text-align: center;
