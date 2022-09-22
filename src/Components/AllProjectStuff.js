@@ -64,6 +64,8 @@ export default function AllProjectStuff() {
             /><ProjectPopUp trigger={ThreeDResumeWebsite} title="3D Resume Website" videoId="lRJd6V3GKDo" github="ResumeWebsite"
                 info="
                      An experimental 3D website that I created in order to display my resume in a unquie way.
+                     It uses models I have created in blender and math functions like sin, cos and tan to make things bob and fly around.
+                     It is built with react-three-fiber and it currently is still a work in progress.
                     "
             />
         </>)

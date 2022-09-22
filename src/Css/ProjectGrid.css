@@ -17,7 +17,7 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
-        grid-column-gap: 1em;
-        grid-row-gap: 1em;
+        grid-column-gap: 0em;
+        grid-row-gap: 0em;
     }
 }

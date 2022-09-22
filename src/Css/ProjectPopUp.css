@@ -6,13 +6,14 @@
     border-radius: 33px;
 
     max-width: 30em;
-
+    min-width: 20em;
+    min-height: 30em;
     padding-left: 3em;
     animation: fadeIn .5s linear;
     animation-play-state: running;
 
     padding-bottom: 30em;
-    padding-top: 0;
+    padding-top: 4em;
     grid-column: 1/2;
     grid-row: 11/11;
 
