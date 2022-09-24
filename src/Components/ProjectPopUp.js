@@ -10,8 +10,22 @@ export default function ProjectPopUp({ ...props }) {
                 <div className="popUpVisualsContainer">
                     <Visuals youtube={props.videoId} videoId={props.videoId} />
                 </div>
-                <h3 className="popUpSummary"> Summary </h3>
-                <p className="popUpInfo"> {props.info} </p>
+
+                <div className="popUpDescription">
+                    <p> {props.InfoDescription} </p>
+                </div>
+                <div className="popUpObjectives">
+                    <h3> Objectives </h3>
+                    <p> {props.InfoObjectives} </p>
+                </div>
+                <div className="popUpTechnologies">
+                    <h3> Technologies </h3>
+                    <p> {props.InfoTechnologies} </p>
+                </div>
+                <div className="popUpKnowledge">
+                    <h3> Knowledge </h3>
+                    <p> {props.InfoKnowledge} </p>
+                </div>
                 <div className="popUpLinks">
                     <GitHubLink github={props.github} />
                 </div>

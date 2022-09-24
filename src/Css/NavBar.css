@@ -1,10 +1,16 @@
 .navBar {
-    position: relative;
     display: flexbox;
     flex-direction: row;
     text-align: right;
-    top: 1em;
-    right: 3em;
+    grid-row: 1/1;
+    grid-column: 1/1;
+}
+
+@media (min-width: 70em) {
+    .navBar {
+        grid-row: 1/1;
+        grid-column: 2/2;
+    }
 }
 
 .navButton {

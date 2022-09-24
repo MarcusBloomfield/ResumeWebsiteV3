@@ -8,11 +8,10 @@ export default function ProjectTile({ ...props }) {
         props.setTrigger(true);
     }
     return (
-        <div data-aos="fade-right" className=" tile " onClick={() => active()} >
-            < h2 > {props.title}</h2 >
-            <p className="tileAbout " >
-                {props.info}
-            </p>
+        <div data-aos="fade-right" className=" tile " >
+            < button className=" tileButton " type='button' onClick={() => active()}>
+                <h2> {props.title}</h2>
+            </button >
         </div >
     );
 }

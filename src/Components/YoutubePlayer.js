@@ -1,4 +1,5 @@
-import YouTube from "react-youtube-player";
+import React from 'react';
+import YouTube from 'react-youtube';
 
 export default function YoutubePlayer({ ...props }) {
     const options = {
@@ -7,7 +8,6 @@ export default function YoutubePlayer({ ...props }) {
             mute: 0,
             modestbranding: 1,
             autohide: 0,
-            playbackSpeed: props.playbackSpeed
         },
     };
     return <YouTube videoId={props.videoId} opts={options} />;

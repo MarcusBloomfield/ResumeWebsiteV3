@@ -2,44 +2,42 @@
 
     display: grid;
     grid-template-columns: .5fr 19fr .5fr;
-    grid-template-rows: .7fr 5.3fr .1fr 2fr .3fr;
+    grid-template-rows: auto auto auto auto auto;
     border-radius: 33px;
 
     max-width: 30em;
     min-width: 20em;
     min-height: 30em;
     padding-left: 3em;
-    animation: fadeIn .5s linear;
-    animation-play-state: running;
-
     padding-bottom: 30em;
     padding-top: 4em;
+
+    animation: fadeIn .5s linear;
+    animation-play-state: running;
     grid-column: 1/2;
     grid-row: 11/11;
-
+    grid-row-gap: 1em;
 }
 
 @media (min-width: 70em) {
     .popUp {
-
         display: grid;
         grid-template-columns: .5fr 19fr .5fr;
-        grid-template-rows: .7fr 5.3fr .1fr 2fr .3fr;
+        grid-template-rows: auto auto auto auto auto;
         border-radius: 33px;
-
         min-width: 40em;
         min-height: 40em;
         max-width: 50em;
 
-        padding-bottom: 10em;
+        padding-bottom: 0em;
         padding-top: 0;
-
-        animation: fadeIn .5s linear;
-        animation-play-state: running;
+        padding-left: 0em;
 
         grid-column: 2/2;
         grid-row: 10/10;
-
+        grid-row-gap: 1em;
+        animation: fadeIn .5s linear;
+        animation-play-state: running;
     }
 }
 
@@ -48,7 +46,7 @@
 
         display: grid;
         grid-template-columns: .5fr 19fr .5fr;
-        grid-template-rows: .7fr 5.3fr .1fr 2fr .3fr;
+        grid-template-rows: .7fr, 1fr, 1fr, 1fr 1fr, .3fr;
         border-radius: 33px;
 
         min-width: 100em;
@@ -67,31 +65,49 @@
     }
 }
 
-.popUpSummary {
-    grid-row: 3/3;
+.popUpDescription {
+    grid-row: 2/2;
+    grid-column: 2 / 2;
+}
+
+.popUpObjectives {
+    grid-row: 4/4;
+    grid-column: 2 / 2;
+}
+
+.popUpTechnologies {
+    grid-row: 5/5;
+    grid-column: 2 / 2;
+}
+
+.popUpKnowledge {
+    grid-row: 6/6;
     grid-column: 2 / 2;
 }
 
 .popUpTitle {
     grid-row: 1/1;
     grid-column: 2 / 2;
-    margin-left: 1em;
 }
 
 .popUpVisualsContainer {
-    grid-row: 2/2;
+    min-height: 20em;
+    grid-row: 3/3;
     grid-column: 2 / 2;
 }
 
-.popUpInfo {
-    grid-row: 4/4;
-    grid-column: 2 / 2;
+@media (min-width: 70em) {
+    .popUpVisualsContainer {
+        min-width: 40em;
+        min-height: 30em;
+    }
 }
 
 .popUpLinks {
-    grid-row: 5/5;
+    grid-row: end/end;
     grid-column: 2 / 2;
     margin-left: 1em;
+    text-align: right;
 }
 
 .popUpClose {

@@ -2,22 +2,12 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    padding-left: 1em;
+    padding-bottom: 10em;
 }
 
 .projectGridContainer {
     grid-column: 1/1;
     grid-row: 10/10;
     text-align: center;
-}
-
-@media (min-width: 70em) {
-    .projectGrid {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;
-        grid-column-gap: 0em;
-        grid-row-gap: 0em;
-    }
 }
