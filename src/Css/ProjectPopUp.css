@@ -8,7 +8,7 @@
     max-width: 30em;
     min-width: 20em;
     min-height: 30em;
-    padding-left: 3em;
+    padding-left: 1em;
     padding-bottom: 30em;
     padding-top: 4em;
 
@@ -27,7 +27,7 @@
         border-radius: 33px;
         min-width: 40em;
         min-height: 40em;
-        max-width: 50em;
+        max-width: 60em;
 
         padding-bottom: 0em;
         padding-top: 0;
@@ -41,29 +41,6 @@
     }
 }
 
-@media(min-width:200em) {
-    .popUp {
-
-        display: grid;
-        grid-template-columns: .5fr 19fr .5fr;
-        grid-template-rows: .7fr, 1fr, 1fr, 1fr 1fr, .3fr;
-        border-radius: 33px;
-
-        min-width: 100em;
-        min-height: 85em;
-        max-width: 50em;
-
-        padding-bottom: 10em;
-        padding-top: 0;
-
-        animation: fadeIn .5s linear;
-        animation-play-state: running;
-
-        grid-column: 2/2;
-        grid-row: 10/10;
-
-    }
-}
 
 .popUpDescription {
     grid-row: 2/2;
@@ -91,7 +68,6 @@
 }
 
 .popUpVisualsContainer {
-    min-height: 20em;
     grid-row: 3/3;
     grid-column: 2 / 2;
 }

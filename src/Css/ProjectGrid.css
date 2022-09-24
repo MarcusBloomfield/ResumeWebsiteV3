@@ -1,9 +1,14 @@
 .projectGrid {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
     padding-left: 1em;
-    padding-bottom: 10em;
+}
+
+@media (min-width: 70em) {
+    .projectGrid {
+        padding-left: 5em;
+    }
 }
 
 .projectGridContainer {

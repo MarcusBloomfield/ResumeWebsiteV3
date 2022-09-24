@@ -3,9 +3,11 @@ import YouTube from 'react-youtube';
 
 export default function YoutubePlayer({ ...props }) {
     const options = {
+        height: '500',
+        width: '900',
         playerVars: {
-            autoplay: 1,
-            mute: 0,
+            autoplay: 0,
+            mute: 1,
             modestbranding: 1,
             autohide: 0,
         },
