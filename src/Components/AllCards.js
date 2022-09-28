@@ -13,8 +13,8 @@ I am Marcus, programming is my passion, I am self-taught and the creative and pr
             details2Title={"2018 - Current Self-Taught"}
             details2="I have been on a rigorous self-education journey ever since I began to mess with programming back in 2018. I love programming and will always love learning new languages as well as building on what I already know." />
         <Card className="card experience" title="Experience"
-            detailsTitle="2018 - Current Unity, C# Developer"
-            details="In 2019 my first app launched on the Google Play Store. I have also been working on smaller side projects which include smaller games and react-based websites as well as my passion project. My passion project is a city-building strategy game that has an in-game intelligence system, which is intended to allow for a greater level of realism. Making games is a huge challenge but I welcome it. I am also currently working on an ambitious 3d VR game with a couple of good friends." />
+            detailsTitle="2019 - 2021 Unity, C# Developer Self Employed"
+            details="In 2019 my first app launched on the Google Play Store. I have also been working on smaller side projects which include smaller games and react-based websites as well as my passion project. My passion project is a city-building strategy game that has an in-game intelligence system, which is intended to allow for a greater level of realism. Making games is a huge challenge but I welcome it." />
         <Card className="card summary" title="Summary" details=" I am always learning, and constantly developing my skills, I love programming, developing systems, and creating applications. I am always working on another project in my spare time to both expand my knowledge base and for my own enjoyment." />
     </>)
 }
