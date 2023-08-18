@@ -20,7 +20,7 @@ body {
     body {
         width: 100%;
         height: 100%;
-        font-size: 100%;
+        font-size: 1.1em;
         background-color: #1C2321;
         color: #EEF1EF;
         font-family: 'Gill Sans',
@@ -28,5 +28,7 @@ body {
             'Calibri',
             'Trebuchet MS',
             sans-serif;
+        
+        text-shadow: 1222222222em;
     }
 }

@@ -4,10 +4,12 @@
     text-align: right;
     grid-row: 1/1;
     grid-column: 1/1;
+    opacity: 0;
 }
 
 @media (min-width: 70em) {
     .navBar {
+        opacity: 100;
         grid-row: 1/1;
         grid-column: 2/2;
     }
