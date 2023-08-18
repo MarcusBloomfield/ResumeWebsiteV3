@@ -3,10 +3,13 @@ import Card from '../Components/Card.js';
 export default function AllCards() {
     return (<>
         <Card className="card aboutMe " title=" About Me" details="
-I am Marcus, programming is my passion, I am self-taught and the creative and problem-solving mindset that is required by coding is why I love programming. Every problem has a solution and I hope I am always as excited as I am today to solve them. " />
-        <Card className="card philosophy" title="Philosophy" details="Programming requires constant learning and adaptation. To cease in these pursuits is to fail." />
-        <Card className="card howILearned" title="How I learned to program" details="I found unity and decided to make my dream game right away. Of course, with no programming experience, this was an extremely hard challenge. However being who I am I never gave up, failure after failure after failure, moving goalposts, on a roller coaster of challenges I kept going. Now my game is still not finished, I am still working on it, but now I am deeply familiar with c# and unity and have developed a deep love for programming." />
-        <Card className="card passion" title="Passion" details="Programming is my passion. For a long time, I had no idea what I wanted to do but finally, I have found something I thoroughly enjoy doing day in and day out. When I am programming time flies by, I lose days and have to pull myself away from the computer to go do other things." />
+            I am Marcus, programming is my passion and the creative problem-solving mindset that it requires is why I love it." />
+        <Card className="card philosophy" title="Philosophy" details="To program is to learn and adapt. To cease in these pursuits is to fail." />
+        <Card className="card howILearned" title="How I learned to program" details="
+I had a vision, to make the most complex advanced city-building game the world had ever seen.
+But alas, without any knowledge at all in programming or game design this was no easy journey. 
+I went from knowing nothing about programming, or art or unity or 3D modeling to proficient in all these areas. I spent countless hours researching, programming, learning and after hundreds of road blocks or failed projects I had finally made a half decent game. Although the work is never ending on my project and the complexity of it grows endlessly, I am always excited to continue work on my game." />
+        <Card className="card passion" title="Passion" details="Programming is my passion. I love it. I have spent countless hours creating complex systems and expanding my knowledge base. Without a doubt it would be a dream come true to have programming be my job." />
         <Card className="card education" title="Education"
             detailsTitle="2020 - 2021 Certificate IV in Programming, UpSkilled"
             details="I have completed a certificate four in programming. In this course, I gained knowledge in agile development processes, application documentation standards, .Net, C#, SQL, and Xamarin."
